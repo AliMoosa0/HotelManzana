@@ -13,6 +13,11 @@
 		3F4CAEB4293E594100DF40AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4CAEB2293E594100DF40AD /* Main.storyboard */; };
 		3F4CAEB6293E594200DF40AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F4CAEB5293E594200DF40AD /* Assets.xcassets */; };
 		3F4CAEB9293E594200DF40AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F4CAEB7293E594200DF40AD /* LaunchScreen.storyboard */; };
+		3F4CAEC1293E62DF00DF40AD /* AddRegistraitionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4CAEC0293E62DF00DF40AD /* AddRegistraitionTableViewController.swift */; };
+		3FFE92D42941D5B300489433 /* roomType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE92D32941D5B300489433 /* roomType.swift */; };
+		3FFE92D62941D88900489433 /* SelectRoom~TypeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE92D52941D88900489433 /* SelectRoom~TypeTableViewController.swift */; };
+		3FFE92D829423DF000489433 /* Registeration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE92D729423DF000489433 /* Registeration.swift */; };
+		3FFE92DA294243C200489433 /* RegisterationTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFE92D9294243C200489433 /* RegisterationTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		3F4CAEB5293E594200DF40AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F4CAEB8293E594200DF40AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F4CAEBA293E594200DF40AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F4CAEC0293E62DF00DF40AD /* AddRegistraitionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRegistraitionTableViewController.swift; sourceTree = "<group>"; };
+		3FFE92D32941D5B300489433 /* roomType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roomType.swift; sourceTree = "<group>"; };
+		3FFE92D52941D88900489433 /* SelectRoom~TypeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SelectRoom~TypeTableViewController.swift"; sourceTree = "<group>"; };
+		3FFE92D729423DF000489433 /* Registeration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Registeration.swift; sourceTree = "<group>"; };
+		3FFE92D9294243C200489433 /* RegisterationTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterationTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				3F4CAEAE293E594100DF40AD /* SceneDelegate.swift */,
 				3F4CAEB0293E594100DF40AD /* ViewController.swift */,
 				3F4CAEB2293E594100DF40AD /* Main.storyboard */,
+				3FFE92D9294243C200489433 /* RegisterationTableViewController.swift */,
+				3FFE92D52941D88900489433 /* SelectRoom~TypeTableViewController.swift */,
+				3F4CAEC0293E62DF00DF40AD /* AddRegistraitionTableViewController.swift */,
+				3FFE92D32941D5B300489433 /* roomType.swift */,
+				3FFE92D729423DF000489433 /* Registeration.swift */,
 				3F4CAEB5293E594200DF40AD /* Assets.xcassets */,
 				3F4CAEB7293E594200DF40AD /* LaunchScreen.storyboard */,
 				3F4CAEBA293E594200DF40AD /* Info.plist */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFE92DA294243C200489433 /* RegisterationTableViewController.swift in Sources */,
+				3FFE92D829423DF000489433 /* Registeration.swift in Sources */,
+				3F4CAEC1293E62DF00DF40AD /* AddRegistraitionTableViewController.swift in Sources */,
 				3F4CAEB1293E594100DF40AD /* ViewController.swift in Sources */,
 				3F4CAEAD293E594100DF40AD /* AppDelegate.swift in Sources */,
+				3FFE92D42941D5B300489433 /* roomType.swift in Sources */,
 				3F4CAEAF293E594100DF40AD /* SceneDelegate.swift in Sources */,
+				3FFE92D62941D88900489433 /* SelectRoom~TypeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
