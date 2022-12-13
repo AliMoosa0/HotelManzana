@@ -6,6 +6,7 @@
 //
 
 import Foundation
+var num: Int = 0
 struct RoomType: Equatable {
     var id: Int
     var name :String
